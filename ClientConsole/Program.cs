@@ -58,7 +58,7 @@ namespace ClientConsole
 
             try
             {
-                Console.Write("IP Sever: ");
+                Console.Write("IP Server: ");
                 string IP = Console.ReadLine();
 
                 Connect(IP);
@@ -66,7 +66,7 @@ namespace ClientConsole
                 // Send machine name
                 Writer.WriteLine(String.Format("{0} [{1}]", Environment.MachineName, Environment.OSVersion));
 
-                Console.WriteLine("Connected to sever.\n");
+                Console.WriteLine("Connected to server.\n");
 
                 Task.WhenAll(ReceiveMessage(), SendMessage());
 

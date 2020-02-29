@@ -93,7 +93,7 @@ namespace Sever
 
         public static async Task Main()
         {
-            Console.Title = "Sever </> Double D";
+            Console.Title = "Server </> Double D";
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.Unicode;
 

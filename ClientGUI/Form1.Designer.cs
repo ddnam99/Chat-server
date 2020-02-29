@@ -159,7 +159,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(48, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "IP Sever";
+            this.label1.Text = "IP Server";
             // 
             // RTB_Messages
             // 
